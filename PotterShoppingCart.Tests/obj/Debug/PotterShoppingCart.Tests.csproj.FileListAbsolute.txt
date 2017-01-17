@@ -1,0 +1,6 @@
+D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\bin\Debug\PotterShoppingCart.Tests.dll
+D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\bin\Debug\PotterShoppingCart.Tests.pdb
+D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.csprojResolveAssemblyReference.cache
+D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.dll
+D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.pdb
