@@ -4,3 +4,5 @@ D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\bin\Debug\Microso
 D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.csprojResolveAssemblyReference.cache
 D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.dll
 D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\obj\Debug\PotterShoppingCart.Tests.pdb
+D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\bin\Debug\ShoppingCartLib.dll
+D:\Kuei\BitBucket\PotterShoppingCart2\PotterShoppingCart.Tests\bin\Debug\ShoppingCartLib.pdb

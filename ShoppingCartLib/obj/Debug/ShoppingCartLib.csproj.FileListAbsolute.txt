@@ -1,0 +1,5 @@
+D:\Kuei\BitBucket\PotterShoppingCart2\ShoppingCartLib\bin\Debug\ShoppingCartLib.dll
+D:\Kuei\BitBucket\PotterShoppingCart2\ShoppingCartLib\bin\Debug\ShoppingCartLib.pdb
+D:\Kuei\BitBucket\PotterShoppingCart2\ShoppingCartLib\obj\Debug\ShoppingCartLib.csprojResolveAssemblyReference.cache
+D:\Kuei\BitBucket\PotterShoppingCart2\ShoppingCartLib\obj\Debug\ShoppingCartLib.dll
+D:\Kuei\BitBucket\PotterShoppingCart2\ShoppingCartLib\obj\Debug\ShoppingCartLib.pdb
