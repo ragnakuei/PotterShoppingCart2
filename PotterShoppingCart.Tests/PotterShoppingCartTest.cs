@@ -126,5 +126,24 @@ namespace PotterShoppingCart.Tests
             decimal expected = 370;
             Assert.AreEqual(expected, actual);
         }
+
+        [TestMethod]
+        public void Payment_第1集買一本_第2_3集各買二本_應為460()
+        {
+            // arrange
+            var target = new ShoppingCart();
+            var shoppingCartItems = new List<ShoppingCartItem> {
+                new ShoppingCartItem(1,"哈利波特第一集",1),
+                new ShoppingCartItem(2,"哈利波特第二集",2),
+                new ShoppingCartItem(3,"哈利波特第三集",2)
+            };
+
+            // act:結帳
+            decimal actual = target.CheckOut(shoppingCartItems);
+
+            // assert
+            decimal expected = 460;
+            Assert.AreEqual(expected, actual);
+        }
     }
 }
