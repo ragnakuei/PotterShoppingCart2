@@ -8,8 +8,7 @@ namespace ShoppingCartLib
     {
         public decimal CheckOut(List<ShoppingCartItem> shoppingCartItems)
         {
-            var shoudPaymentItems = shoppingCartItems.Where(item => item.Amount >= 1);
-            decimal discount = CalcDiscount(shoudPaymentItems);
+            decimal discount = CalcDiscount(shoppingCartItems);
 
             return 100 * shoppingCartItems.Select(item => item.Amount).Sum() * (1 - discount);
         }
@@ -17,7 +16,8 @@ namespace ShoppingCartLib
         private decimal CalcDiscount(IEnumerable<ShoppingCartItem> shoudPaymentItems)
         {
             decimal discount = 0;
-            switch (shoudPaymentItems.Count())
+            int itemsCount = shoudPaymentItems.Where(item => item.Amount >= 1).Count();
+            switch (itemsCount)
             {
                 case 2:
                     discount = 0.05m;
