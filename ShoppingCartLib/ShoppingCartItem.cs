@@ -9,8 +9,14 @@ namespace ShoppingCartLib
         //  結帳
         public decimal CheckOut(IEnumerable<ShoppingCartItem> shoppingCartItems)
         {
-            var shoudPaymentItems = shoppingCartItems.Where(item => item.Amount >= 1);
-            decimal discount = CalcDiscount(shoudPaymentItems);
+            decimal payment = 0;
+            while (GetCountForAmountGreaterEqual1(shoppingCartItems) >= 1)
+            {
+                payment += CalcSingleDiscountPayment(shoppingCartItems);
+                ItemsAmountMinus1(ref shoppingCartItems);
+            }
+            return payment;
+        }
 
         // 計算單次折扣金額
         private decimal CalcSingleDiscountPayment(IEnumerable<ShoppingCartItem> shoppingCartItems)
@@ -23,7 +29,7 @@ namespace ShoppingCartLib
         private decimal CalcDiscount(IEnumerable<ShoppingCartItem> shoudPaymentItems)
         {
             decimal discount = 0;
-            switch (shoudPaymentItems.Count())
+            switch (GetCountForAmountGreaterEqual1(shoudPaymentItems))
             {
                 case 2:
                     discount = 0.05m;
