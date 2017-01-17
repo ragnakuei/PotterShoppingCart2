@@ -31,7 +31,7 @@ namespace PotterShoppingCart.Tests
         }
 
         [TestMethod]
-        public void Payment_第一集買一本加第二集買一本_應為190()
+        public void Payment_第1_2集各買一本_應為190()
         {
             // arrange
             var target = new ShoppingCart();
