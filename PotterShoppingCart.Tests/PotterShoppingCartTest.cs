@@ -85,6 +85,6 @@ namespace PotterShoppingCart.Tests
             // assert
             decimal expected = 320;
             Assert.AreEqual(expected, actual);
-        } 
+        }
     }
 }
